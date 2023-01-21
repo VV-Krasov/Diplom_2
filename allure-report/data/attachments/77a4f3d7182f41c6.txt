@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: praktikum.OrderCreateTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.387 s <<< FAILURE! - in praktikum.OrderCreateTest
+createOrderWithoutIngredientsWithoutAuthorization(praktikum.OrderCreateTest)  Time elapsed: 0.416 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <400>.
+
+	at praktikum.OrderCreateTest.createOrderWithoutIngredientsWithoutAuthorization(OrderCreateTest.java:71)
+
+createOrderWithIngredientsWithoutAuthorization(praktikum.OrderCreateTest)  Time elapsed: 0.399 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <200>.
+
+	at praktikum.OrderCreateTest.createOrderWithIngredientsWithoutAuthorization(OrderCreateTest.java:61)
+
